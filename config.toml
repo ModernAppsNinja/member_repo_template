@@ -43,7 +43,7 @@ link = "plugins/google-map/gmap.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
+description = "ModernApps Ninja Member Page for $user_login"
 author = "ModernApps Ninjabot"
 # contact info
 # address = "9567 Turner Trace Apt. BC C3G8A4"
