@@ -1,14 +1,12 @@
 ######################## default configuration ####################
-baseURL = "https://modernapps.ninja/"
-title = "ModernApps Ninja Home"
+baseURL = "$base_url"
+title = "ModernApps Ninja Member Page for $user_login"
 theme = "educenter-hugo"
 # themesDir = "../.."
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "10"
-# disqus short name
-disqusShortname = "modernappsninja" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["fr"] # desable language from here
 
@@ -46,11 +44,11 @@ link = "plugins/google-map/gmap.js"
 logo = "images/logo.png"
 # Meta data
 description = "This is meta description"
-author = "ModernApps Ninja"
+author = "ModernApps Ninjabot"
 # contact info
 # address = "9567 Turner Trace Apt. BC C3G8A4"
 # mobile = "+211234565523"
-email = "modernappsninja@googlegroups.com"
+email = "$user_email"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -84,30 +82,30 @@ enable = true
 expire_days = 2
   
 ############################# social site ########################
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/vmwaretanzu/"
+#[[params.social]]
+#title = "facebook"
+#icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+#link = "https://www.facebook.com/$facebook_username/"
 
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/modernappsninja"
+link = "https://twitter.com/$twitter_username"
 
-[[params.social]]
-title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "https://www.instagram.com/vmware/"
+#[[params.social]]
+#title = "instagram"
+#icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+#link = "https://www.instagram.com/vmware/"
 
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/modernappsninja/"
+link = "https://github.com/$user_login/"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://www.linkedin.com/company/vmware-tanzu/"
+link = "https://www.linkedin.com/company/$linkedin_username/"
 
 
 ################################### English language #####################################
@@ -125,56 +123,56 @@ copyright = "Copyright &copy; 2020 VMware"
 ################### English navigation ####################
 
 # main menu
+#[[Languages.en.menu.main]]
+#name = "ModernApps Ninja Home"
+#url = "https://modernapps.ninja"
+#weight = 2
+
 [[Languages.en.menu.main]]
-name = "About"
-url = "about"
+name = "My Courses"
+url = "course"
 weight = 1
 
-[[Languages.en.menu.main]]
-name = "courses"
-url = "course"
-weight = 2
+#[[Languages.en.menu.main]]
+#name = "Tanzu Links"
+#identifier = "Tanzu Links"
+#weight = 3
 
-[[Languages.en.menu.main]]
-name = "Tanzu Links"
-identifier = "Tanzu Links"
-weight = 3
+#[[Languages.en.menu.main]]
+#parent = "Tanzu Links"
+#name = "Tanzu.VMware.com"
+#URL = "https://tanzu.vmware.com/"
+#weight = 3001
 
-[[Languages.en.menu.main]]
-parent = "Tanzu Links"
-name = "Tanzu.VMware.com"
-URL = "https://tanzu.vmware.com/"
-weight = 3001
+#[[Languages.en.menu.main]]
+#parent = "Tanzu Links"
+#name = "Tanzu Developer Center"
+#URL = "https://tanzu.vmware.com/developer/"
+#weight = 3002
 
-[[Languages.en.menu.main]]
-parent = "Tanzu Links"
-name = "Tanzu Developer Center"
-URL = "https://tanzu.vmware.com/developer/"
-weight = 3002
+#[[Languages.en.menu.main]]
+#parent = "Tanzu Links"
+#name = "Tanzu Content Library"
+#URL = "https://tanzu.vmware.com/content-library/"
+#weight = 3003
 
-[[Languages.en.menu.main]]
-parent = "Tanzu Links"
-name = "Tanzu Content Library"
-URL = "https://tanzu.vmware.com/content-library/"
-weight = 3003
+#[[Languages.en.menu.main]]
+#parent = "Tanzu Links"
+#name = "Free Cloud Native eBooks"
+#URL = "https://tanzu.vmware.com/content/ebooks/"
+#weight = 3004
 
-[[Languages.en.menu.main]]
-parent = "Tanzu Links"
-name = "Free Cloud Native eBooks"
-URL = "https://tanzu.vmware.com/content/ebooks/"
-weight = 3004
+#[[Languages.en.menu.main]]
+#parent = "Tanzu Links"
+#name = "Tanzu Github Org"
+#URL = "https://github.com/vmware-tanzu/"
+#weight = 3005
 
-[[Languages.en.menu.main]]
-parent = "Tanzu Links"
-name = "Tanzu Github Org"
-URL = "https://github.com/vmware-tanzu/"
-weight = 3005
-
-[[Languages.en.menu.main]]
-parent = "Tanzu Links"
-name = "ModernApps Ninja Github Org"
-URL = "https://github.com/modernappsninja/"
-weight = 3006
+#[[Languages.en.menu.main]]
+#parent = "Tanzu Links"
+#name = "ModernApps Ninja Github Org"
+#URL = "https://github.com/modernappsninja/"
+#weight = 3006
 
 
 #[[Languages.en.menu.main]]

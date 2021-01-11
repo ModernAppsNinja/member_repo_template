@@ -4,42 +4,42 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Welcome to ModernApps Ninja"
-      content : "Free Courses with an active Expert Community powered by VMware Tanzu"
+    - title : "ModernApps Ninja Member Page for [$user_login](https://github.com/$user_login/)"
+      content : "Please see below for my ModernApps Ninja Course Records, Certificates, and Contributor Stats"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
-        enable : true
+        enable : false
         label : "Register now"
         link : "https://lms.modernapps.ninja/register?next=%2F"
 
     # slider item loop
-    - title : "Welcome to ModernApps Ninja"
-      content : "Free Courses with an active Expert Community powered by VMware Tanzu"
+    - title : "ModernApps Ninja Member Page for $user_login"
+      content : ""
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
-        enable : true
+        enable : false
         label : "Register now"
         link : "https://lms.modernapps.ninja/register?next=%2F"
 
     # slider item loop
-    - title : "Welcome to ModernApps Ninja"
-      content : "Free Courses with an active Expert Community powered by VMware Tanzu"
+    - title : "ModernApps Ninja Member Page for $user_login"
+      content : ""
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
-        enable : true
+        enable : false
         label : "Register now"
         link : "https://lms.modernapps.ninja/register?next=%2F"
 
 
 ############################### Banner feature ###############################
 banner_feature:
-  enable : true
+  enable : false
   image : "images/banner/banner-feature.jpg"
   feature_item:
     # feature item loop
@@ -65,7 +65,7 @@ banner_feature:
 
 ############################## about ##################################
 about:
-  enable : true
+  enable : false
   title : "About ModernApps Ninja"
   image : "images/about/about-us.jpg"
   content : "The ModernApps Ninja Community is dedicated to building a community of students and practitioners of Cloud Native Technologies. The community seeks to provide practical educational experiences that help enrich and maximize the knowledge sharing potential for community participants and contributors."
@@ -78,7 +78,7 @@ about:
 ############################# Course ################################
 course:
   enable : true
-  title : "Our Courses"
+  title : "My Courses"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
@@ -94,7 +94,7 @@ cta:
 
 ######################## Success story #############################
 success_story:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/success-story.jpg"
   title : "Success Stories"
   content : "Many of our participants learned to make their first Github Commit through the Ninja Program. One participant reported that he had never made a Github commit and learned how to as he became an active contributor in the Ninja Community - and has since gone on to become a committer to Kubernetes and other leading open source projects!"
@@ -111,7 +111,7 @@ event:
   
 ########################### funfacts ############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # funfact item loop
     - name : "Project Contributors"
