@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "$base_url"
-title = "ModernApps Ninja Member Page for $user_login"
+baseURL = "https://modernappsninjas.github.io/$user_login/"
+title = "ModernApps Ninja Member Page for $user_full_name"
 theme = "educenter-hugo"
 # themesDir = "../.."
 # post pagination
@@ -123,32 +123,32 @@ copyright = "Copyright &copy; 2020 VMware"
 ################### English navigation ####################
 
 # main menu
-#[[Languages.en.menu.main]]
-#name = "ModernApps Ninja Home"
-#url = "https://modernapps.ninja"
-#weight = 2
+[[Languages.en.menu.main]]
+name = "My Certificates"
+url = "certs"
+weight = 2
 
 [[Languages.en.menu.main]]
 name = "My Courses"
 url = "course"
 weight = 1
 
-#[[Languages.en.menu.main]]
-#name = "Tanzu Links"
-#identifier = "Tanzu Links"
-#weight = 3
+[[Languages.en.menu.main]]
+name = "Links"
+identifier = "Links"
+weight = 3
 
-#[[Languages.en.menu.main]]
-#parent = "Tanzu Links"
-#name = "Tanzu.VMware.com"
-#URL = "https://tanzu.vmware.com/"
-#weight = 3001
+[[Languages.en.menu.main]]
+parent = "Links"
+name = "Site github repo"
+URL = "https://github.com/modernappsninjas/$user_login/"
+weight = 3001
 
-#[[Languages.en.menu.main]]
-#parent = "Tanzu Links"
-#name = "Tanzu Developer Center"
-#URL = "https://tanzu.vmware.com/developer/"
-#weight = 3002
+[[Languages.en.menu.main]]
+parent = "Links"
+name = "ModernApps Ninja Homepage"
+URL = "https://modernapps.ninja"
+weight = 3002
 
 #[[Languages.en.menu.main]]
 #parent = "Tanzu Links"

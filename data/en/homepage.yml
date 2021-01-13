@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "ModernApps Ninja Member Page for [$user_login](https://github.com/$user_login/)"
+    - title : "ModernApps Ninja Member Page for [$user_full_name](https://github.com/$user_login/)"
       content : "Please see below for my ModernApps Ninja Course Records, Certificates, and Contributor Stats"
       animation_in : "left"
       animation_out : "right"
@@ -100,6 +100,13 @@ success_story:
   content : "Many of our participants learned to make their first Github Commit through the Ninja Program. One participant reported that he had never made a Github commit and learned how to as he became an active contributor in the Ninja Community - and has since gone on to become a committer to Kubernetes and other leading open source projects!"
   # video link
   video_link : "https://www.youtube.com/watch?v=GlVSmFtIs1s&t=5s"
+
+
+############################# cert ################################
+cert:
+  enable : true
+  title : "My ModernApps Ninja Certificates"
+  # event item comes from "content/**/certs" folder.
 
 
 ############################# event ################################

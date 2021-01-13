@@ -1,20 +1,18 @@
 {{ define "main" }}
 
-<!-- courses -->
+<!-- events -->
 <section class="section">
   <div class="container">
-    <!-- course list -->
-    <div class="row justify-content-center">
-      <!-- course item -->
+    <div class="row">
+      <!-- event -->
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course" }}
+        {{ .Render "cert" }}
       </div>
       {{ end }}
     </div>
-    <!-- /course list -->
   </div>
 </section>
-<!-- /courses -->
+<!-- /events -->
 
 {{ end }}

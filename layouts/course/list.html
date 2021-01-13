@@ -1,26 +1,20 @@
 {{ define "main" }}
 
-<!-- course -->
+<!-- courses -->
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 order-2 order-lg-1">
-        <div class="row">
-          <!-- course list -->
-          {{ range .Data.Pages }}
-          <div class="col-sm-6 mb-5">
-            {{ .Render "course" }}
-          </div>
-          {{ end }}
-          <div class="col-12 mt-4">
-            {{ template "_internal/pagination.html" . }}
-          </div>
-        </div>
+    <!-- course list -->
+    <div class="row justify-content-center">
+      <!-- course item -->
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "course" }}
       </div>
-      {{ partial "course-sidebar.html" . }}
+      {{ end }}
     </div>
+    <!-- /course list -->
   </div>
 </section>
-<!-- /course -->
+<!-- /courses -->
 
 {{ end }}

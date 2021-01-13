@@ -1,8 +1,8 @@
 ---
-title: "My Courses"
+title: "My ModernApps Ninja Certificates"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Courses I am attending or have completed"
+description : "Certificates for completed courses and achievments"
 ---
