@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://modernappsninjas.github.io/$user_login/"
-title = "ModernApps Ninja Member Page for $user_full_name"
+baseURL = "https://modernappsninjas.github.io/$member_login/"
+title = "ModernApps Ninja Member Page for $first_name $last_name"
 theme = "educenter-hugo"
 # themesDir = "../.."
 # post pagination
@@ -43,12 +43,12 @@ link = "plugins/google-map/gmap.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "ModernApps Ninja Member Page for $user_login"
+description = "ModernApps Ninja Member Page for $member_login"
 author = "ModernApps Ninjabot"
 # contact info
 # address = "9567 Turner Trace Apt. BC C3G8A4"
 # mobile = "+211234565523"
-email = "$user_email"
+email = ""
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -100,7 +100,7 @@ link = "https://twitter.com/$twitter_username"
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/$user_login/"
+link = "https://github.com/$member_login/"
 
 [[params.social]]
 title = "linkedin"
@@ -141,7 +141,7 @@ weight = 3
 [[Languages.en.menu.main]]
 parent = "Links"
 name = "Site github repo"
-URL = "https://github.com/modernappsninjas/$user_login/"
+URL = "https://github.com/modernappsninjas/$member_login/"
 weight = 3001
 
 [[Languages.en.menu.main]]
