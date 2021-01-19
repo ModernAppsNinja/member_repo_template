@@ -15,7 +15,7 @@ slider:
         link : "https://lms.modernapps.ninja/register?next=%2F"
 
     # slider item loop
-    - title : "ModernApps Ninja Member Page for $member_login"
+    - title : "ModernApps Ninja Member Page for [$first_name $last_name](https://github.com/$member_login/)"
       content : "Please see below for my ModernApps Ninja Course Records, Certificates, and Contributor Stats"
       animation_in : "left"
       animation_out : "right"
@@ -26,7 +26,7 @@ slider:
         link : "https://lms.modernapps.ninja/register?next=%2F"
 
     # slider item loop
-    - title : "ModernApps Ninja Member Page for $member_login"
+    - title : "ModernApps Ninja Member Page for [$first_name $last_name](https://github.com/$member_login/)"
       content : "Please see below for my ModernApps Ninja Course Records, Certificates, and Contributor Stats"
       animation_in : "left"
       animation_out : "right"
