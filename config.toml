@@ -8,7 +8,7 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disable language
-disableLanguages = ["fr"] # desable language from here
+disableLanguages = ["fr"] # disable language from here
 
 ############################# Plugins ##############################
 
